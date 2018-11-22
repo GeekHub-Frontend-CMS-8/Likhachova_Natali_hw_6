@@ -111,6 +111,9 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+  .about .short_line {
+    line-height: 20px;
+    margin: 0 0 -30px 0; }
   .about .about_text p {
     color: #4d4d4d;
     font-family: 'Asap', sans-serif;
@@ -127,6 +130,8 @@ button {
 .services {
   background-color: #F6F6F6;
   padding: 50px 0; }
+  .services .short_line {
+    margin: 0 0 -30px 590px; }
   .services h2 {
     display: flex;
     flex-direction: row;
@@ -150,10 +155,16 @@ button {
 .skills {
   text-align: center;
   padding: 50px 0 90px; }
+  .skills .short_line {
+    line-height: 20px;
+    margin: 0 0 -30px 0; }
 
 .fortfolio {
   background-color: #F6F6F6;
   padding: 50px 0; }
+  .fortfolio .short_line {
+    line-height: 20px;
+    margin: 0 0 -30px 590px; }
   .fortfolio h2 {
     text-align: center; }
   .fortfolio .portfolio_list {
@@ -181,6 +192,9 @@ button {
   align-items: center;
   margin-top: 60px;
   margin-bottom: 100px; }
+  .testimonials_container .short_line {
+    line-height: 20px;
+    margin: 0 0 -30px 0; }
   .testimonials_container .testimonials_container_section {
     display: flex;
     border: 1px solid #000;
@@ -252,6 +266,9 @@ button {
     width: 1300px;
     margin-left: auto;
     margin-right: auto; }
+    .footer .forms .short_line {
+      line-height: 20px;
+      margin: 0 0 -110px 615px; }
     .footer .forms h2 {
       font-family: 'Asap', sans-serif;
       font-weight: 600;
