@@ -56,6 +56,20 @@ header
       justify-content: center
       align-items: center
 
+      a
+        font-family: 'Asap', sans-serif
+        color: #4d4d4d
+        font-size: 16px
+        font-weight: 500
+        line-height: 65px
+        text-decoration: none
+        text-transform: uppercase
+        &:hover
+          text-decoration: none
+          border-bottom: 2px solid #4d4d4d
+          padding-bottom: 5px
+          text-transform: none
+
       li
         padding: 15px
 
@@ -100,10 +114,6 @@ header
     flex-direction: row
     justify-content: flex-start
 
-    .white_btn
-      background-color: #FFFFFF
-      border: none
-
 button
   margin-right: 20px
   width: 160px
@@ -116,6 +126,7 @@ button
   border: 1px solid #000000
   border-radius: 1px
   background-color: transparent
-  &hover
+  &:hover
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
     background-color: #FFFFFF
+    border: none

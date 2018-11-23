@@ -50,6 +50,19 @@ header {
       flex-direction: row;
       justify-content: center;
       align-items: center; }
+      .first_line .menu ul a {
+        font-family: 'Asap', sans-serif;
+        color: #4d4d4d;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 65px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .first_line .menu ul a:hover {
+          text-decoration: none;
+          border-bottom: 2px solid #4d4d4d;
+          padding-bottom: 5px;
+          text-transform: none; }
       .first_line .menu ul li {
         padding: 15px; }
 
@@ -86,9 +99,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; }
-    .top .btn .white_btn {
-      background-color: #FFFFFF;
-      border: none; }
 
 button {
   margin-right: 20px;
@@ -101,9 +111,10 @@ button {
   border: 1px solid #000000;
   border-radius: 1px;
   background-color: transparent; }
-  buttonhover {
+  button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    border: none; }
 
 .about {
   margin: 100px 80px;
@@ -111,9 +122,13 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-  .about .short_line {
-    line-height: 20px;
-    margin: 0 0 -30px 0; }
+  .about .dark_line_left::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #7A7A7A;
+    margin-bottom: 10px;
+    width: 60px; }
   .about .about_text p {
     color: #4d4d4d;
     font-family: 'Asap', sans-serif;
@@ -130,13 +145,17 @@ button {
 .services {
   background-color: #F6F6F6;
   padding: 50px 0; }
-  .services .short_line {
-    margin: 0 0 -30px 590px; }
+  .services .dark_line::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #7A7A7A;
+    margin-bottom: 10px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto; }
   .services h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
+    text-align: center; }
   .services .services_list {
     margin: 0 50px;
     display: flex;
@@ -155,16 +174,28 @@ button {
 .skills {
   text-align: center;
   padding: 50px 0 90px; }
-  .skills .short_line {
-    line-height: 20px;
-    margin: 0 0 -30px 0; }
+  .skills .dark_line::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #7A7A7A;
+    margin-bottom: 10px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .fortfolio {
   background-color: #F6F6F6;
   padding: 50px 0; }
-  .fortfolio .short_line {
-    line-height: 20px;
-    margin: 0 0 -30px 590px; }
+  .fortfolio .dark_line::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #7A7A7A;
+    margin-bottom: 10px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto; }
   .fortfolio h2 {
     text-align: center; }
   .fortfolio .portfolio_list {
@@ -192,9 +223,15 @@ button {
   align-items: center;
   margin-top: 60px;
   margin-bottom: 100px; }
-  .testimonials_container .short_line {
-    line-height: 20px;
-    margin: 0 0 -30px 0; }
+  .testimonials_container .dark_line::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #7A7A7A;
+    margin-bottom: 10px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto; }
   .testimonials_container .testimonials_container_section {
     display: flex;
     border: 1px solid #000;
@@ -266,9 +303,15 @@ button {
     width: 1300px;
     margin-left: auto;
     margin-right: auto; }
-    .footer .forms .short_line {
-      line-height: 20px;
-      margin: 0 0 -110px 615px; }
+    .footer .forms .light_line::before {
+      content: '';
+      display: block;
+      height: 4px;
+      background-color: #C1C1C1;
+      margin-bottom: 10px;
+      width: 60px;
+      margin-left: auto;
+      margin-right: auto; }
     .footer .forms h2 {
       font-family: 'Asap', sans-serif;
       font-weight: 600;
